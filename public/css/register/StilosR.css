@@ -1,0 +1,295 @@
+body{
+ background-image: url(../register/background\ 2.jpg);
+ background-position: center center;
+ background-repeat: no-repeat; 
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: #000;
+}
+/** header **/
+
+/* Navbar */
+/* Navbar */
+.navbar {
+    background-color: #1a1919;
+    height: 60px;
+    margin: 20px;
+    margin-top: 5px; 
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+.navbar-transparent {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+
+.navbar-brand img {
+    width: auto;
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Color inicial de las letras */
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #ff4800 !important; /* Cambia el color al naranja */
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Estilos para el efecto de barra */
+.nav-link {
+    position: relative;
+}
+
+.barra {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #ff4800;
+    transition: width 0.3s ease;
+}
+
+.nav-link.clicked .barra {
+    width: 100%;
+}
+
+
+
+.hero-section{
+    background: url(https://muchosnegociosrentables.com/wp-content/uploads/2020/09/como-crear-una-empresa-de-mudanzas.jpg) no-repeat center;
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.hero-section::before{
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+/** End header **/
+
+
+.triangulo {
+    height: 0;
+    width: 0;
+    border-top: 400px solid #FF7601;
+    border-left: 400px solid transparent  ;
+    border-right: 0px solid #FF7601;
+    float: inline-end;
+
+}
+h1 {
+    text-align: center;
+    color: #666;
+    text-shadow: 1px 1px 0px #706D6C;
+    margin: 50px 0px 0px 0px
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: inherit;
+}
+
+hr {
+  position: relative;
+  margin-top: 25%;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.textoo p{
+    margin-left: -160px;
+}
+
+.contenedor {
+    background-size: 100% 100%;
+    background-color: #ffffff;
+    position: relative;
+    width: 510px;
+    height: 650px;
+    overflow: hidden;
+    float: inline-end;
+    border-radius: 2em;
+    margin-right: -140px;
+}
+
+    .menu h2 {
+        color: #FF7601;
+        margin: 30px;
+        padding-bottom: 5px;
+        padding: 20px;
+        margin-top: 20px;
+        font-family:'montserrat', sans-serif ;
+
+    }
+ 
+    .logo{
+        width: 400px;
+        height: 100%;
+        margin-left: 35px;
+    }
+   
+    .texto{
+        font-family: 'montserrat', sans-serif;
+        text-align: left;
+    }
+
+    .texto h1{
+        color: #ffffff;
+        font-size: 60px;
+        text-align: left;
+        font-family: 'montserrat', sans-serif;
+
+    }
+
+    .texto p{
+        color: #ffffff;
+        font-size: 30px;
+        text-align: left;
+        font-family: 'montserrat' sans-serif;
+    }
+
+
+.inicio{
+    
+    font-family: 'montserrat', sans-serif;
+}
+
+.inicio h3{
+    font-size: 25px;
+}
+
+.inicio p{
+    font-size:15px;
+}
+.connexion {
+    position: absolute;
+    padding: 5% 10%;
+    width: 74%;
+    left:0px;
+    transition: all 0.7s;
+}
+
+    .connexion h2 {
+        display: inline;
+        margin: 20px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #FF7601;
+    }
+
+
+
+    .connexion h4:hover {
+        opacity: 0.8;
+        transition: all 0.1s ease-in;
+        color: #000000;
+    }
+
+label {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FF7601;
+}
+
+input {
+    display: block;
+    width: 93%;
+    margin: auto;
+    padding: 13px;
+    font-family: "montserrat",sans-serif;
+    border: none;
+    border-bottom: 2px solid #FF7601;
+    margin-bottom: 30px;
+    background: transparent;
+}
+.inicio{
+    border-radius: 1em;
+}
+
+input p {
+    color: #FF7601;
+    opacity: 1;
+}
+
+    input.submit {
+        width: 58%;
+        padding: 10px;
+        font-size: 17px;
+        font-weight: 700;
+        color: #fff;
+        opacity: 1;
+        background-color: #FF7601;
+        cursor: pointer;
+        border-radius: 10em;
+    }
+
+.check{
+    width: 100%;
+    margin-left: 41px;
+}
+.check_full{
+    margin-left: 35px;
+    margin-top: -40px;
+}
+.links a{
+  font-size: 11px;
+}
+
+.links p{
+    font-size: 11px;
+  }
+
+.l_2{
+    margin-left: 80px;
+}
+
+.recuerdame{
+    display: inline-flex;
+    margin-left: 15%;
+}
